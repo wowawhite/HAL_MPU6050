@@ -102,8 +102,6 @@ int main(void)
   MX_I2C1_Init();
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
-  MX_USB_DEVICE_Init();
-
   mpu6050.devAddr = MPU6050_DEFAULT_ADDRESS;
   MPU6050_initialize();
   int32_t retvar = 0;
