@@ -1,4 +1,4 @@
-STM32 CubeIDE 1.3 example
+STM32 CubeIDE 1.3 MPU6050 USB CDC example
 =================
 This is my example for basic usage on MPU6050.
 The project is implemented on stm32f746g-disco, but should work on other STM32 with minor modifications.
